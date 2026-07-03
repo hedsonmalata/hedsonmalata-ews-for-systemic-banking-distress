@@ -47,31 +47,31 @@ Python 3.10 or later is recommended.
 
 Required packages:
 
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-scipy
-statsmodels
-openpyxl
+- numpy
+- pandas
+- matplotlib
+- seaborn
+- scikit-learn
+- scipy
+- statsmodels
+- openpyxl
 
 Install the required packages using:
 
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 Running the Replication
 -----------------------
 
 Ensure that the following files are located in the same project directory:
 
-analysis_dataset.csv
-EWS_reproducible_Source_Codes.py
-requirements.txt
+- analysis_dataset.csv
+- EWS_reproducible_Source_Codes.py
+- requirements.txt
 
 Run the replication using:
 
-python EWS_reproducible_Source_Codes.py
+- python EWS_reproducible_Source_Codes.py
 
 Alternatively, open EWS_reproducible_Source_Codes.ipynb in Jupyter Notebook or JupyterLab and execute all cells sequentially.
 
@@ -82,17 +82,17 @@ Running the replication script generates the following outputs in the `outputs/`
 
 Tables
 
-table_2_distress_environments.csv
-table_3_calibration_diagnostics.csv
-table_A1_recursive_logit_coefficients.csv
-table_A3_descriptive_statistics.csv
-table_A4_country_level_distress_frequencies.csv
-table_A5_oos_severe_distress_distribution.csv
-table_A8_macro_financial_proxy_augmentation.csv
-table_excluding_south_africa.csv
-table_resampling_stability_main.csv
-table_threshold_sensitivity.csv
-table_woe_robustness_main.csv
+- table_2_distress_environments.csv
+- table_3_calibration_diagnostics.csv
+- table_A1_recursive_logit_coefficients.csv
+- table_A3_descriptive_statistics.csv
+- table_A4_country_level_distress_frequencies.csv
+- table_A5_oos_severe_distress_distribution.csv
+- table_A8_macro_financial_proxy_augmentation.csv
+- table_excluding_south_africa.csv
+- table_resampling_stability_main.csv
+- table_threshold_sensitivity.csv
+- table_woe_robustness_main.csv
 
 Diagnostic Outputs
 
@@ -101,15 +101,15 @@ correlation_matrix.csv
 - bootstrap_auc_differences_main.csv
 - macro_augmented_model_results.csv
 - appendix_recursive_logit_coefficients.csv
-appendix_leave_one_country_out_influence.csv
-appendix_persistence_overlap_diagnostic.csv
-woe_coefficient_diagnostics.csv
-woe_coefficient_diagnostics_display.csv
-woe_logit_coefficients_main.csv
+- appendix_leave_one_country_out_influence.csv
+- appendix_persistence_overlap_diagnostic.csv
+- woe_coefficient_diagnostics.csv
+- woe_coefficient_diagnostics_display.csv
+- woe_logit_coefficients_main.csv
 
 Prediction Files
 
-oos_predictions_strict_distress.csv
-oos_predictions_main_with_woe.csv
-oos_predictions_macro_augmented.csv
-oos_predictions_excluding_south_africa.csv
+- oos_predictions_strict_distress.csv
+- oos_predictions_main_with_woe.csv
+- oos_predictions_macro_augmented.csv
+- oos_predictions_excluding_south_africa.csv

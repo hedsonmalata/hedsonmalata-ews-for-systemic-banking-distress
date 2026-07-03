@@ -13,6 +13,11 @@ Overview
 --------
 This repository contains the replication materials for the study "Early Warning Systems for Systemic Banking Distress: Persistence, Covariates, and Predictive Performance in Small Macroprudential Panels." The package enables users to reproduce the empirical analyses, robustness checks, diagnostic tests, forecasting results, tables, and figures reported in the manuscript.
 
+Data Statement
+--------------
+
+The dataset provided in this repository is an analysis-ready dataset constructed by the author from publicly available macroprudential and banking-sector statistics. It does not contain the original raw source data. Instead, it comprises processed variables, engineered features, lagged predictors, distress indicators, and other analytical variables developed specifically for the empirical analyses reported in the accompanying manuscript. The dataset is provided solely to facilitate replication, verification, and extension of the study's findings. Users seeking the original raw data should obtain them directly from the respective data providers cited in the manuscript.
+
 Repository Contents
 -------------------
 

@@ -16,15 +16,15 @@ This repository contains the replication materials for the study "Early Warning 
 Repository Contents
 -------------------
 
-1. cleaned_full_panel.csv
+1. analysis_dataset.csv
 
    Analysis-ready panel dataset used for model estimation and forecast evaluation. The dataset contains country and year identifiers, prudential indicators, constructed banking distress measures, lagged explanatory variables, persistence variables, and macro-financial covariates used in the forecasting models.
 
-2. ews_replication_script_master.py
+2. EWS_reproducible_Source_Codes.py
 
    Main Python replication script. Running this script reproduces the complete empirical analysis, including data preprocessing, model estimation, recursive out-of-sample forecasting, bootstrap analyses, robustness checks, diagnostic statistics, tables, and figures reported in the manuscript.
 
-3. ews_replication_script_master.ipynb
+3. EWS_reproducible_Source_Codes.ipynb
 
    Interactive Jupyter Notebook version of the replication script for exploratory analysis and inspection.
 

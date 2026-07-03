@@ -97,10 +97,10 @@ table_woe_robustness_main.csv
 Diagnostic Outputs
 
 correlation_matrix.csv
-vif_diagnostics.csv
-bootstrap_auc_differences_main.csv
-macro_augmented_model_results.csv
-appendix_recursive_logit_coefficients.csv
+- vif_diagnostics.csv
+- bootstrap_auc_differences_main.csv
+- macro_augmented_model_results.csv
+- appendix_recursive_logit_coefficients.csv
 appendix_leave_one_country_out_influence.csv
 appendix_persistence_overlap_diagnostic.csv
 woe_coefficient_diagnostics.csv

@@ -1,0 +1,4 @@
+Model,Mean AUC,SD(AUC),Win Freq.
+HYBRID,0.5,0.0,0.0%
+LOGIT,0.574,0.07,0.2%
+STRUCT,0.832,0.05,99.8%

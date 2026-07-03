@@ -1,0 +1,4 @@
+Model,Baseline_AUC,Baseline_Brier,Baseline_LogLoss,Macro_AUC,Macro_Brier,Macro_LogLoss
+STRUCT,0.832,0.126,0.397,0.832,0.126,0.397
+HYBRID,0.771,0.145,0.449,0.741,0.16,0.482
+LOGIT,0.577,0.204,0.618,0.472,0.212,0.686

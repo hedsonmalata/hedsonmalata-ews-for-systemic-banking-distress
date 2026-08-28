@@ -89,8 +89,10 @@ Tables
 - table_A3_descriptive_statistics.csv
 - table_A4_country_level_distress_frequencies.csv
 - table_A5_oos_severe_distress_distribution.csv
-- table_A8_macro_financial_proxy_augmentation.csv
-- table_excluding_south_africa.csv
+- tableA_6_persistence_overlap_diagnostic.csv
+- table_A7_leave_one_country_out_influence.csv.csv
+- table_A8_threshold_sensitivity.csv
+- table_A9__macro_financial_proxy_augmentation.csv
 - table_resampling_stability_main.csv
 - table_threshold_sensitivity.csv
 - table_woe_robustness_main.csv

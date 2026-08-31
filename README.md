@@ -23,9 +23,19 @@ Repository Contents
    inspection, exploratory analysis, and step-by-step reproduction of the
    empirical results.
 
-4. requirements.txt
+4. Software Requirements
 
-   List of Python packages required to run the replication code.
+   The replication code requires Python 3.10 or later and the following
+   Python packages:
+
+   - numpy
+   - pandas
+   - matplotlib
+   - seaborn
+   - scikit-learn
+   - scipy
+   - statsmodels
+   - openpyxl
 
 5. outputs/
 

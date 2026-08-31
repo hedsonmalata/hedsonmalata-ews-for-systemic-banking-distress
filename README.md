@@ -1,3 +1,12 @@
+
+Replication Repository
+----------------------
+This repository contains the replication materials for the paper:
+
+"Early Warning Systems for Systemic Banking Distress: Persistence, Covariates, and Predictive Performance in Small Macroprudential Panels" by Hedson Malata, accepted for publication in Finance Research Letters.
+
+The repository provides the analysis-ready dataset, reproducible Python source code, out-of-sample prediction files, diagnostic outputs, and tables used to reproduce and verify the empirical results reported in the paper.
+
 Repository Contents
 -------------------
 

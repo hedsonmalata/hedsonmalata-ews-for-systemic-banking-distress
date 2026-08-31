@@ -1,0 +1,5 @@
+Variable,Mean,Std. Dev.,Sign
+EAR_lag1 (WoE),-0.62,0.253,$-$
+LIQ_lag1 (WoE),-0.48,0.288,$-$
+LLR_lag1 (WoE),0.0,0.0,$+$
+ROA_lag1 (WoE),-0.447,0.231,$-$

@@ -1,23 +1,3 @@
-Replication Package
-===================
-
-Title
------
-Early Warning Systems for Systemic Banking Distress: Persistence, Covariates, and Predictive Performance in Small Macroprudential Panels
-
-Author
-------
-Hedson Malata
-
-Overview
---------
-This repository contains the replication materials for the study "Early Warning Systems for Systemic Banking Distress: Persistence, Covariates, and Predictive Performance in Small Macroprudential Panels." The package enables users to reproduce the empirical analyses, robustness checks, diagnostic tests, forecasting results, tables, and figures reported in the manuscript.
-
-Data Statement
---------------
-
-The dataset provided in this repository is an analysis-ready dataset constructed by the author from publicly available macroprudential and banking-sector statistics. It does not contain the original raw source data. Instead, it comprises processed variables, engineered features, lagged predictors, distress indicators, and other analytical variables developed specifically for the empirical analyses reported in the accompanying manuscript. The dataset is provided solely to facilitate replication, verification, and extension of the study's findings. Users seeking the original raw data should obtain them directly from the respective data providers cited in the manuscript.
-
 Repository Contents
 -------------------
 
@@ -39,47 +19,13 @@ Repository Contents
 
 5. outputs/
 
-   Directory containing generated tables, prediction files, and intermediate outputs.
+   Directory containing generated tables, prediction files, diagnostic results, and intermediate outputs.
 
-Software Requirements
----------------------
-
-Python 3.10 or later is recommended.
-
-Required packages:
-
-- numpy
-- pandas
-- matplotlib
-- seaborn
-- scikit-learn
-- scipy
-- statsmodels
-- openpyxl
-
-Install the required packages using:
-
-- pip install -r requirements.txt
-
-Running the Replication
------------------------
-
-Ensure that the following files are located in the same project directory:
-
-- analysis_dataset.csv
-- EWS_reproducible_Source_Codes.py
-- requirements.txt
-
-Run the replication using:
-
-- python EWS_reproducible_Source_Codes.py
-
-Alternatively, open EWS_reproducible_Source_Codes.ipynb in Jupyter Notebook or JupyterLab and execute all cells sequentially.
 
 Main Outputs
 ------------
 
-Running the replication script generates the following outputs in the `outputs/` directory, including:
+Running the replication script generates the following outputs in the `outputs/` directory.
 
 Tables
 
@@ -89,17 +35,17 @@ Tables
 - table_A3_descriptive_statistics.csv
 - table_A4_country_level_distress_frequencies.csv
 - table_A5_oos_severe_distress_distribution.csv
-- tableA_6_persistence_overlap_diagnostic.csv
-- table_A7_leave_one_country_out_influence.csv.csv
+- table_A6_persistence_overlap_diagnostic.csv
+- table_A7_leave_one_country_out_influence.csv
 - table_A8_threshold_sensitivity.csv
-- table_A9__macro_financial_proxy_augmentation.csv
+- table_A9_macro_financial_proxy_augmentation.csv
 - table_resampling_stability_main.csv
 - table_threshold_sensitivity.csv
 - table_woe_robustness_main.csv
 
 Diagnostic Outputs
 
-correlation_matrix.csv
+- correlation_matrix.csv
 - vif_diagnostics.csv
 - bootstrap_auc_differences_main.csv
 - macro_augmented_model_results.csv

@@ -1,11 +1,26 @@
 
-Replication Repository
-----------------------
+## Replication Repository
+
 This repository contains the replication materials for the paper:
 
-"Early Warning Systems for Systemic Banking Distress: Persistence, Covariates, and Predictive Performance in Small Macroprudential Panels" by Hedson Malata, accepted for publication in Finance Research Letters.
+“Early Warning Systems for Systemic Banking Distress: Persistence, Covariates, and Predictive Performance in Small Macroprudential Panels”** by Hedson Malata, accepted for publication in _Finance Research Letters_.
 
-The repository provides the analysis-ready dataset, reproducible Python source code, out-of-sample prediction files, diagnostic outputs, and tables used to reproduce and verify the empirical results reported in the paper.
+The repository provides the analysis-ready country-year panel dataset, reproducible Python source code, out-of-sample prediction files, diagnostic outputs, and supporting tables required to reproduce and verify the empirical results reported in the paper.
+
+The systemic-distress measure is constructed from four binary indicators representing capital weakness, profitability deterioration, asset-quality weakness, and liquidity vulnerability:
+
+- capital fragility: \(EAR<0.04\);
+- profitability fragility: \(ROA\leq0\);
+- asset-quality fragility: \(LLR>0.03\); and
+- liquidity fragility: \(LIQ<0.20\) or \(WFS>0.20\).
+
+The composite stress score is the sum of these four indicators. The baseline severe-distress outcome equals one when at least two component conditions are triggered. When an underlying indicator is unavailable, that indicator does not independently trigger its corresponding threshold condition.
+
+Applying these definitions to the supplied dataset reproduces all four component indicators, the composite stress score, and the baseline distress outcome exactly for all 125 country-year observations.
+
+The repository reproduces the recursive out-of-sample forecasting analysis, model comparisons, robustness exercises, diagnostic statistics, tables, and figures reported in the paper. The reported 107 observations represent the recursive out-of-sample forecast-evaluation panel following the three-year country-specific warm-up period. They should not be interpreted as the number of observations with complete values for every continuous prudential indicator. Effective estimation samples may vary across recursive windows according to predictor availability.
+
+The persistence-based structural model uses historical distress realizations and does not directly require complete EAR, ROA, LLR, or LIQ observations. For the ridge-logit specification, training observations with incomplete lagged predictors are excluded, while missing predictor values in individual forecast observations are handled by the median-imputation step contained in the model pipeline.
 
 Repository Contents
 -------------------

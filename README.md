@@ -15,7 +15,7 @@ The systemic-distress measure is constructed from four binary indicators represe
 * asset-quality fragility: loan-loss ratio (\(LLR>0.03\)); and
 * liquidity fragility: liquid assets to total assets (\(LIQ<0.20\)) or wholesale funding exceeding 20% of total funding (\(WFS>0.20\)).
 
-The composite stress score is the sum of these four indicators. The baseline severe-distress outcome equals one when at least two component conditions are triggered. When an underlying indicator is unavailable, its corresponding threshold comparison does not independently trigger a fragility condition. For the liquidity component, however, either available condition—low LIQ or high WFS—is sufficient to trigger liquidity fragility.
+The composite stress score is the sum of these four indicators. The baseline severe-distress outcome equals one when at least two component conditions are triggered. When an underlying indicator is unavailable, its corresponding threshold comparison does not independently trigger a fragility condition. For the liquidity component, however, either available condition; low LIQ or high WFS, is sufficient to trigger liquidity fragility.
 
 WFS is used in constructing the liquidity-fragility component but is not included among the four continuous lagged predictors in the baseline ridge-logit specification.
 
@@ -25,7 +25,7 @@ Applying the stated definitions to the supplied dataset reproduces all four comp
 
 In addition to the baseline severe-distress outcome (\(S_{it}\geq2\)), the analysis considers early fragility (\(S_{it}\geq1\)), a stricter distress definition (\(S_{it}\geq3\)), and an onset-focused specification that excludes continuing severe-distress episodes.
 
-The repository reproduces the recursive out-of-sample forecasting analysis, model comparisons, robustness exercises, diagnostic statistics, tables, and figures reported in the paper. The reported 107 observations constitute the recursive out-of-sample forecast-evaluation panel following the three-year country-specific warm-up period. This figure should not be interpreted as the number of observations with complete values for every continuous prudential indicator. Effective estimation samples vary across recursive windows according to predictor availability.
+The repository reproduces the recursive out-of-sample forecasting analysis, model comparisons, robustness exercises, diagnostic statistics, and numerical results reported in the paper. The reported 107 observations constitute the recursive out-of-sample forecast-evaluation panel following the three-year country-specific warm-up period. This figure should not be interpreted as the number of observations with complete values for every continuous prudential indicator. Effective estimation samples vary across recursive windows according to predictor availability.
 
 The persistence-based structural model uses historical distress realizations and therefore does not directly require complete EAR, ROA, LLR, or LIQ observations. For the ridge-logit specification, training observations with incomplete lagged predictors are excluded. When a lagged predictor is unavailable for an individual forecast observation, it is imputed using the median estimated from the corresponding historical training window, thereby preserving the recursive information structure.
 

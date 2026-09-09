@@ -22,17 +22,7 @@ The systemic-distress measure is constructed from four binary indicators represe
 
 The composite stress score is
 
-\[
-S_{it}
-=
-D^{(1)}_{it}
-+
-D^{(2)}_{it}
-+
-D^{(3)}_{it}
-+
-D^{(4)}_{it}.
-\]
+\[S_{it} = D^{(1)}_{it} + D^{(2)}_{it} + D^{(3)}_{it} + D^{(4)}_{it}.\]
 
 The baseline severe-distress outcome equals one when at least two component conditions are triggered:
 

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use these replication materials, please cite the associated article."
+
+title: "Replication Materials for Early Warning Systems for Systemic Banking Distress"
+
+authors:
+  - family-names: "Malata"
+    given-names: "Hedson"
+
+repository-code: "https://github.com/hedsonmalata/hedsonmalata-ews-for-systemic-banking-distress"
+
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Malata"
+      given-names: "Hedson"
+  title: "Early Warning Systems for Systemic Banking Distress: Persistence, Covariates, and Predictive Performance in Small Macroprudential Panels"
+  journal: "Finance Research Letters"
+  year: 2026
+  doi: "10.1016/j.frl.2026.110706"

@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # # Reproducible recursive OOS EWS experiments
 # ## Author: Hedson Malata
 # 

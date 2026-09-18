@@ -173,8 +173,12 @@ Generated replication results are stored under:
 
 ## Reproducibility
 
+The released `analysis_dataset.csv` is an author-constructed, analysis-ready harmonised research dataset derived from publicly available information published by the respective national central banks and other official sources. The harmonised indicators were constructed using common study-defined definitions and country-specific mappings; they should not be interpreted as official harmonised series produced by the respective central banks. Original institutional source files, statistical publications, annual reports, and other source materials are not redistributed in this repository.
+
+The released forecasting code begins from the analysis-ready panel and reproduces the subsequent target environments, recursive forecasts, model comparisons, diagnostics, and robustness exercises. Detailed mathematical definitions, country-specific mappings, and the reproducibility boundary are documented in `EWS_Mathematical_Framework_and_Data_Harmonisation.pdf`.
+
 To reproduce the analysis, place `analysis_dataset.csv` in the same directory as `EWS_reproducible_Source_Codes.py` and run the script from that directory.
 
 The script automatically creates the required `outputs/tables/` and `outputs/predictions/` directories if they do not already exist.
 
-The replication package begins from the analysis-ready panel. Accordingly, it reproduces the empirical forecasting analysis reported in the paper but does not reconstruct the original manually extracted central-bank source files.
+Accordingly, the replication package reproduces the empirical forecasting analysis from the harmonised analysis-ready panel onward; it does not reconstruct the upstream manual extraction of information from the original central-bank source materials.

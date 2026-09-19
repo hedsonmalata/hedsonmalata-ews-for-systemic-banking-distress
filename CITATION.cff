@@ -9,6 +9,9 @@ authors:
 
 repository-code: "https://github.com/hedsonmalata/hedsonmalata-ews-for-systemic-banking-distress"
 
+version: "1.0.0"
+date-released: "2026-09-19"
+
 preferred-citation:
   type: article
   authors:
